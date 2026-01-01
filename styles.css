@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html, body {
+  overflow: hidden;
+  height: 100%;
+  padding: 0; 
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: repeating-linear-gradient(135deg, #F29B91 0px, #F09290 30px, transparent 30px, transparent 50px, #83B3DB 50px, #84ADCB 80px, transparent 80px, transparent 100px);
+  padding: 23px;
+}
+.container .inner { 
+  background: white; 
+  width: 100%; 
+  height: 100%;
+  padding: 2rem;
+}
+
+
+
+.atkinson-hyperlegible-mono, p, span, div, li, a, h1, h2, h3, h4, h5, h6 {
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
